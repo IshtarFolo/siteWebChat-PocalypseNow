@@ -1,0 +1,17 @@
+:root {
+    // Les variables de couleur
+    // --------------------------------
+    --gris-base: #575757;
+    --jaune-texte: #FEB312;
+    --bleu-bck-film: #98D9ED;
+    --gradient-header: linear-gradient(
+        -180deg,
+        rgba(0,0,0,1) 0%,
+        rgba(47,32,13,1) 17%,
+        rgba(120,60,6,1) 38%,
+        rgba(166,96,0,1) 60%,
+        rgba(254,133,0,1) 81%,
+        rgba(254,198,25,1) 100%
+    );
+}
+

@@ -1,0 +1,125 @@
+@import "bootstrap-4.3.1/scss/mixins/breakpoints";
+
+// Page principale
+h1 {
+    width: 100%;
+    color: var(--jaune-texte);
+    font-family: "Bebas Neue", serif;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0rem;
+}
+
+.h1-responsive {
+    font-size: 40px; // taille texte par defaut
+
+// Classes personnalisées pour tailles de polices différentes selon le viewport
+    @include media-breakpoint-up(sm) {
+        font-size: 50px;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 60px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 80px;
+        padding-right: 1rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 100px;
+    }
+}
+
+h2 {
+    font-family: "Bebas Neue", serif;
+    font-size: 30px;
+
+    // Classes personnalisées pour tailles de polices différentes selon le viewport
+    @include media-breakpoint-up(sm) {
+        font-size: 37px;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 44px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 51px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 58px;
+    }
+}
+
+.texte-intro {
+    padding: 0 2rem 0 2rem;
+
+    @include media-breakpoint-up(lg) {
+        padding: 0 15rem 0 15rem;
+    }
+}
+
+.texte-intro>p {
+    font-family: "Rockwell", serif;
+    font-size: 20px;
+
+    // Classes personnalisées pour tailles de polices différentes selon le viewport
+    @include media-breakpoint-up(sm) {
+        font-size: 20px;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 25px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 30px;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 35px;
+    }
+}
+
+.texte-intro>h2, p{
+    color: var(--jaune-texte);
+}
+
+.crédit-responsive {
+    width: 100%;
+    color: var(--jaune-texte);
+    font-family: "Rockwell", serif;
+    display: flex;
+    justify-content: flex-end;
+    position: relative;
+    top: -0.7rem;
+    font-size: 18px; // taille texte par defaut
+
+// Classes personnalisées pour tailles de polices différentes selon le viewport
+    @include media-breakpoint-up(sm) {
+        font-size: 24px;
+    }
+
+    @include media-breakpoint-up(md) {
+        font-size: 31px;
+    }
+
+    @include media-breakpoint-up(lg) {
+        font-size: 38px;
+        padding-right: 1rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+        font-size: 40px;
+    }
+}
+
+.aPropos>p {
+    margin: 0;
+    padding-top: 0.4rem;
+    color: var(--gris-base);
+    font-family: "Bebas Neue", serif;
+}
