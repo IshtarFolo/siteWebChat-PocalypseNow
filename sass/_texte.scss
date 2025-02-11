@@ -117,9 +117,16 @@ h2 {
     }
 }
 
-.aPropos>p {
-    margin: 0;
-    padding-top: 0.4rem;
-    color: var(--gris-base);
-    font-family: "Bebas Neue", serif;
-}
+.aPropos {
+        a {
+            margin: 0;
+            padding-top: 0.4rem;
+            color: var(--gris-base);
+            font-family: "Bebas Neue", serif;
+
+            &:hover {
+                color: var(--jaune-texte);
+                text-decoration: none;
+            }
+        }
+    }

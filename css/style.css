@@ -452,11 +452,15 @@ h2 {
   }
 }
 
-.aPropos > p {
+.aPropos a {
   margin: 0;
   padding-top: 0.4rem;
   color: var(--gris-base);
   font-family: "Bebas Neue", serif;
+}
+.aPropos a:hover {
+  color: var(--jaune-texte);
+  text-decoration: none;
 }
 
 * {
@@ -588,10 +592,10 @@ header {
   height: 3rem;
   margin-left: 1rem;
   border-radius: 50%;
-  background-color: var(--gris-base);
-  border: 2px solid var(--jaune-texte);
+  background-color: var(--jaune-texte);
+  border: 2px solid var(--gris-base);
+  background-image: url(../images/movie_Gris.png);
   box-shadow: -5px 2px 10px #000000;
-  background-image: url(../images/movie_Jaune.png);
   background-repeat: no-repeat;
   background-size: 130%;
   background-position: center;
@@ -604,6 +608,16 @@ header {
     height: 4rem;
     margin-right: 2rem;
   }
+}
+.demoR a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.demoR:hover {
+  background-color: var(--gris-base);
+  border: 2px solid var(--jaune-texte);
+  background-image: url(../images/movie_Jaune.png);
 }
 
 /* Bouton a propos */
@@ -632,7 +646,7 @@ header {
   background-color: var(--gris-base);
   border: 2px solid var(--jaune-texte);
 }
-.aPropos:hover p {
+.aPropos:hover a {
   color: var(--jaune-texte);
 }
 
@@ -657,10 +671,20 @@ header {
     height: 4rem;
   }
 }
+.creation a {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
 .creation:hover {
   background-color: var(--gris-base);
   border: 2px solid var(--jaune-texte);
   background-image: url(../images/icone_Prod_Actif.png);
+}
+
+.active {
+  background-color: var(--gris-base);
+  border: 2px solid var(--jaune-texte);
 }
 
 /*----- barres sous le header -----*/
