@@ -321,6 +321,13 @@ template {
       rgba(254,133,0,1) 81%,
       rgba(254,198,25,1) 100%
   );
+  --gradient-bck-film: linear-gradient(
+      180deg,
+      rgba(87,87,87,1) 0%,
+      rgba(152,217,237,1) 30%,
+      rgba(152,217,237,1) 70%,
+      rgba(87,87,87,1) 100%
+  );
 }
 
 h1 {
@@ -469,6 +476,10 @@ h2 {
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Bebas Neue Regular";
+  src: url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+}
 body {
   background-color: var(--gris-base);
   overflow-x: hidden;
@@ -479,9 +490,14 @@ body {
   width: 100vw;
   height: 100%;
   position: absolute;
-  top: 250px;
+  top: 14rem;
   overflow: hidden;
   z-index: 1;
+}
+@media (min-width: 992px) {
+  .wrapper-flou-body {
+    top: 38rem;
+  }
 }
 
 .flou-milieu-body {
@@ -503,16 +519,20 @@ body {
 /*----- Contenu de la page -----*/
 .contenu {
   width: 100%;
-  height: 40vh;
   z-index: 5;
   position: relative;
 }
 @media (min-width: 992px) {
   .contenu {
-    height: 100vh;
+    height: 100%;
   }
 }
 
+@media (min-width: 992px) {
+  .texte-intro {
+    top: -5rem;
+  }
+}
 .texte-intro img {
   width: 10rem;
 }
@@ -524,32 +544,25 @@ body {
 
 /*----- Le court-métrage -----*/
 .bck-film {
-  margin-top: 15rem;
+  width: 100vw;
+  height: 30rem;
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--bleu-bck-film);
-  filter: blur(30px);
-  backdrop-filter: blur(30px);
+  background: rgb(87, 87, 87);
+  background: var(--gradient-bck-film);
+  z-index: 2;
 }
 @media (min-width: 992px) {
   .bck-film {
-    margin-top: -15rem;
+    height: 80rem;
+    margin-top: -50rem;
   }
 }
 
 .video {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
-  top: -21rem;
-  z-index: 5;
-}
-@media (min-width: 992px) {
-  .video {
-    top: -50rem;
-  }
+  z-index: 2;
 }
 .video iframe {
   width: 95vw;
@@ -557,8 +570,8 @@ body {
 }
 @media (min-width: 992px) {
   .video iframe {
-    width: 75vw;
-    height: 75vh;
+    width: 95vw;
+    height: 80vh;
   }
 }
 
@@ -604,8 +617,8 @@ header {
 }
 @media (min-width: 992px) {
   .demoR {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     margin-right: 2rem;
   }
 }
@@ -638,8 +651,13 @@ header {
 }
 @media (min-width: 992px) {
   .aPropos {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
+  }
+}
+@media (min-width: 992px) {
+  .aPropos a {
+    font-size: 5rem;
   }
 }
 .aPropos:hover {
@@ -667,8 +685,8 @@ header {
 }
 @media (min-width: 992px) {
   .creation {
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
   }
 }
 .creation a {

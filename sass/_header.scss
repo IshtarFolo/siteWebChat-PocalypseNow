@@ -41,8 +41,8 @@ header {
     transition: all 1s;
 
     @include media-breakpoint-up(lg) {
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
         margin-right: 2rem;
     }
 
@@ -77,8 +77,14 @@ header {
     transition: all 1s;
 
     @include media-breakpoint-up(lg) {
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
+    }
+
+    a {
+        @include media-breakpoint-up(lg) {
+            font-size: 5rem;
+        }
     }
 
     &:hover{
@@ -108,8 +114,8 @@ header {
     transition: all 1s;
 
     @include media-breakpoint-up(lg) {
-        width: 4rem;
-        height: 4rem;
+        width: 5rem;
+        height: 5rem;
     }
 
     a {
