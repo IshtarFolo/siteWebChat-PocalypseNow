@@ -1,3 +1,4 @@
+// Importation des breakpoints de Bootstrap
 @import "bootstrap-4.3.1/scss/mixins/breakpoints";
 
 header {
@@ -15,7 +16,7 @@ header {
     }
 }
 
-/* Le menu*/
+/*----- Le menu -----*/
 .menu {
     margin-bottom: 0.5rem;
     display: flex;
@@ -210,7 +211,7 @@ header {
     top: -0.7rem;
 } 
 
-/* Img sur le header */
+/*----- Img sur le header -----*/
 .chatHead {
     width: 100%;
     height: 30vh;
