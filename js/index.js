@@ -2,7 +2,7 @@
 let boutons = document.querySelectorAll('.boutonNav>a');
 
 // On capture l'URL de la page actuelle
-let pageActuelle = window.location.pathname.replace(/^\//, '');
+let pageActuelle = window.location.pathname.split('/').pop();
 
 // On fait une boucle pour voir l'URL de chaque bouton
 boutons.forEach(bouton => {
@@ -19,11 +19,11 @@ boutons.forEach(bouton => {
         // On change l'image du fond en fonction de la page
         if (url == "chatPocalypseNow.html") 
         {
-            parent.style.backgroundImage = "url(../images/movie_Jaune.png)"
+            parent.style.backgroundImage = "url(../images/movie_Jaune.png)";
         }
         else if (url == "creation.html")
         {
-            parent.style.backgroundImage = "url(../images/icone_Prod_Actif.png)"
+            parent.style.backgroundImage = "url(../images/icone_Prod_Actif.png)";
         }
         else if (url == "aPropos.html")
         {
