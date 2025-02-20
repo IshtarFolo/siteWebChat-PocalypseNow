@@ -2,30 +2,31 @@
 let boutons = document.querySelectorAll('.boutonNav>a');
 
 // On capture l'URL de la page actuelle
-let pageActuelle = window.location.pathname.split('/').pop();
+let pageActuelle = window.location.pathname;
 
 // On fait une boucle pour voir l'URL de chaque bouton
 boutons.forEach(bouton => {
     // On capture l'URL de chaque bouton
-    let url = bouton.getAttribute('href');
+    let url = new URL(bouton.href).pathname;
 
-    // Si l'URL du bouton est égale à l'URL de la page actuelle
-    if (url === pageActuelle) {
-        //
+    // Si l'URL du bouton est égale à l'URL de la page actuelle ou si c'est la page d'accueil
+    if (url === pageActuelle || (pageActuelle === '/' && url === templateUrl + '/')) {
+        // On capture l'element parent du bouton
         let parent = bouton.parentElement;
+
         // On ajoute la classe 'active' au bouton
         parent.classList.add('active');
 
         // On change l'image du fond en fonction de la page
-        if (url == "chatPocalypseNow.html") 
+        if (url.endsWith("index.php") || url === "/") 
         {
-            parent.style.backgroundImage = "url(../images/movie_Jaune.png)";
-        }
-        else if (url == "creation.html")
+            parent.style.backgroundImage = "url(" + templateUrl + "/images/movie_Jaune.png)";
+        } 
+        else if (url.endsWith("creation.php")) 
         {
-            parent.style.backgroundImage = "url(../images/icone_Prod_Actif.png)";
-        }
-        else if (url == "aPropos.html")
+            parent.style.backgroundImage = "url(" + templateUrl + "/images/icone_Prod_Actif.png)";
+        } 
+        else if (url.endsWith("aPropos.php")) 
         {
             bouton.style.color = "#FEB312";
         }
