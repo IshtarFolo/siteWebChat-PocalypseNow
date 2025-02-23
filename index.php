@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 	
-<!-- L'url du template wordpress -->
 <script type="text/javascript">
 	var templateUrl = '<?= get_bloginfo("template_url"); ?>';
 	console.log('url = ' + templateUrl);
@@ -50,7 +49,7 @@
 
     <div class="wrapper-img-head">
         <div class="flou-top-img"></div>
-        <img class="chatHead" src="<?php echo get_template_directory_uri(); ?>/images/testImageBCK.jpg" alt="image chat">
+        <img class="chatHead" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat2.jpg" alt="image chat">
 
     </div>
     <!-- HEADER -->
@@ -62,15 +61,17 @@
     </div>
 
     <div class="contenu texte-intro">
-        <h2 class="mb-4 mx-2">Synopsis :</h2>
+        <h2 class="mb-4 mx-2">Le concept :</h2>
         <!-- Style de l'image temporaire!!! -->
-        <img src="https://wjg.lxt.mybluehost.me/wp-content/uploads/2025/02/movie.png" alt="" class="float-right imgshadow me-3 mb-3">
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, tempora voluptate! Asperiores, a! Alias
-            nemo ea voluptatibus delectus maxime quisquam aut explicabo! A repellat mollitia, debitis blanditiis illo
-            eos perspiciatis!
-            Tenetur atque architecto alias autem expedita perspiciatis at quas. Consequatur sint voluptate amet?
-            Voluptates tempore autem illo voluptas rerum suscipit quo asperiores aperiam consequuntur corporis ipsum
-            alias, deserunt dignissimos culpa.</p>
+        <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/Artboard-1.png" alt="" class="float-right imgshadow me-3 mb-3">
+        <p>Pour mon projet final en intégration multimédia, j’ai modélisé et groomé un chat en 3D en visant une représentation la plus fidèle possible.
+			<br>
+
+J’ai sculpté la base dans ZBrush, optimisé la topologie et les UVs dans Maya, puis utilisé XGen pour le grooming. J’ai ajusté la densité, la longueur et l’orientation des poils pour un rendu cohérent.
+
+Ce projet m’a permis d’approfondir mes compétences en modélisation organique et en grooming, tout en respectant les contraintes techniques d’un pipeline 3D.
+
+</p>
     </div>
 
     <div class="contenu bck-film">

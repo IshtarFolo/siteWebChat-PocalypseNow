@@ -63,10 +63,10 @@ body {
         top: -5rem;
     }
         img {
-            width: 10rem;
+            width: 15rem;
 
             @include media-breakpoint-up(lg) {
-                width: 20rem;
+                width: 40rem;
             }
         }
     }

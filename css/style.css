@@ -545,11 +545,11 @@ body {
   }
 }
 .texte-intro img {
-  width: 10rem;
+  width: 15rem;
 }
 @media (min-width: 992px) {
   .texte-intro img {
-    width: 20rem;
+    width: 40rem;
   }
 }
 
