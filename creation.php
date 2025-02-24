@@ -40,16 +40,19 @@ Template Name: creation
 
             <div class="row">
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="images/movie.png" alt="" class="imgshadow w-100">
+                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/06.02.2025_10.33.59_REC.png" alt="" class="imgshadow w-100">
+                </div>
+				<div class="col-6 col-md-3 mb-3">
+                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatMaya_2.png" alt="" class="imgshadow w-100">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="images/movie.png" alt="" class="imgshadow w-100">
+                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Maya3.png" alt="" class="imgshadow w-100">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="images/movie.png" alt="" class="imgshadow w-100">
+                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatTestRender.jpg" alt="" class="imgshadow w-100">
                 </div>
                 <div class="col-6 col-md-3 mb-3">
-                    <img src="images/movie.png" alt="" class="imgshadow w-100">
+                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Render1.jpg" alt="" class="imgshadow w-100">
                 </div>
             </div>
     </div>
