@@ -10,7 +10,7 @@ boutons.forEach(bouton => {
     let url = new URL(bouton.href).pathname;
 
     // Si l'URL du bouton est égale à l'URL de la page actuelle ou si c'est la page d'accueil
-    if (url === pageActuelle || (pageActuelle === '/' && url === templateUrl + '/')) {
+    if (url === pageActuelle || (pageActuelle === '/' && url === pageInfo + '/')) {
         // On capture l'element parent du bouton
         let parent = bouton.parentElement;
 
@@ -20,13 +20,13 @@ boutons.forEach(bouton => {
         // On change l'image du fond en fonction de la page
         if (url.endsWith("index.php") || url === "/") 
         {
-            parent.style.backgroundImage = "url(" + templateUrl + "/images/movie_Jaune.png)";
+            parent.style.backgroundImage = "url(https://chatpocalypsenow.com/wp-content/uploads/2025/02/movie_Jaune.png)";
         } 
-        else if (url.endsWith("creation.php")) 
+        else if (pageInfo == "Création") 
         {
-            parent.style.backgroundImage = "url(" + templateUrl + "/images/icone_Prod_Actif.png)";
+            parent.style.backgroundImage = "url(https://chatpocalypsenow.com/wp-content/uploads/2025/02/icone_Prod_Actif.png)";
         } 
-        else if (url.endsWith("aPropos.php")) 
+        else if (pageInfo == "À Propos") 
         {
             bouton.style.color = "#FEB312";
         }

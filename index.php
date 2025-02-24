@@ -1,41 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-	
-<script type="text/javascript">
-	var templateUrl = '<?= get_bloginfo("template_url"); ?>';
-	console.log('url = ' + templateUrl);
-</script>
-	
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat-Pocalypse Now</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-
-    <!-- Style du site -->
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/bootstrap.css">
-    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/style.css">
-
-</head>
-
-<body class="container-fluid px-0">
-    <!-- HEADER -->
-    <header class="px-3">
-        <!-- Menu -->
-        <div class="menu">
-            <div class="demoR boutonNav"><a href="<?php echo home_url(); ?>"></a></div>
-
-            <div class="aPropos boutonNav">
-                <a href="aPropos.html">?</a>
-            </div>
-
-            <div class="creation boutonNav"><a href="creation.html"></a></div>
-        </div>
-        <!-- Menu -->
-    </header>
+<?php get_header(); ?> 
 
     <div class="wrapper-barres">
         <div class="orange"></div>
@@ -84,20 +47,4 @@ Ce projet m’a permis d’approfondir mes compétences en modélisation organiq
     </div>
     <!-- CONTENU -->
 
-    <!-- FOOTER -->
-    <footer class="px-3">
-                <a href="https://github.com/IshtarFolo"><img src="<?php echo get_template_directory_uri(); ?>/images/github-logo.png" alt="icone Github"></a>
-        <a href="https://www.artstation.com/xavierarbour9"><img src="<?php echo get_template_directory_uri(); ?>/images/artstation_Edit.png"
-                alt="icone Artstation"></a>
-    </footer>
-    <!-- FOOTER -->
-
-    <!-- Script pour Bootstrap -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
-        crossorigin="anonymous"></script>
-
-    <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
-</body>
-
-</html>
+    <?php get_footer(); ?> 
