@@ -586,6 +586,11 @@ body {
   }
 }
 
+/*----- Style du carousel pour la page creation.php ------*/
+.carousel-item .active {
+  border: none;
+}
+
 header {
   width: 100vw;
   height: 8vh;
@@ -711,7 +716,7 @@ header {
   background-image: url(https://wjg.lxt.mybluehost.me/wp-content/uploads/2025/02/icone_Prod_Actif.png);
 }
 
-.active {
+.actif {
   background-color: var(--gris-base);
   border: 2px solid var(--jaune-texte);
 }

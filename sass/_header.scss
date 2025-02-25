@@ -132,8 +132,8 @@ header {
     }
 }
 
-// Classe active si la page actuelle est la meme que celle du bouton
-.active {
+// Classe actif si la page actuelle est la meme que celle du bouton
+.actif {
     background-color: var(--gris-base);
     border: 2px solid var(--jaune-texte);
 }

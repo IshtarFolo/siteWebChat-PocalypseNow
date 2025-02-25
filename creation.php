@@ -31,12 +31,17 @@ Template Name: creation
     <div class="contenu texte-intro">
         <h2 class="mb-4 mx-2">Processus de création :</h2>
         <!-- Style de l'image temporaire!!! -->
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, tempora voluptate! Asperiores, a! Alias
-            nemo ea voluptatibus delectus maxime quisquam aut explicabo! A repellat mollitia, debitis blanditiis illo
-            eos perspiciatis!
-            Tenetur atque architecto alias autem expedita perspiciatis at quas. Consequatur sint voluptate amet?
-            Voluptates tempore autem illo voluptas rerum suscipit quo asperiores aperiam consequuntur corporis ipsum
-            alias, deserunt dignissimos culpa.</p>
+        <p class="mb-5">La création de ce chat 3D a débuté par une recherche approfondie d’images de référence, permettant de mieux comprendre l’anatomie et les proportions de l'animal. <br><br>
+
+Ensuite, le modèle a été sculpté dans ZBrush avec un souci du réalisme avant d’être exporté en format FBX vers Maya pour la suite du processus.<br>
+
+Dans Maya, j’ai procédé au dépliage des UVs afin d’appliquer des textures de base, notamment une texture transparente pour le globe oculaire ainsi qu'une texture simple pour l'iris du chat et une matériel de base pour la peau.<br><br>
+
+Après cela, j’ai réalisé le rigging et le skinning du modèle pour permettre son animation. Avant d’aller plus loin, j’ai testé l’animation afin de m’assurer de la bonne déformation du modèle.<br><br>
+
+Une fois ces étapes validées, j’ai utilisé XGen pour créer un grooming le plus réaliste possible, avec mes limitations graphiques, ajoutant du volume et du détail au pelage du chat.<br><br>
+
+Enfin, j’ai procédé aux rendus finaux, mettant en valeur le modèle avec un éclairage dynamique et un décor simple.</p>
 		
 			<!-- Carousel Bootstrap	 -->
             <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">

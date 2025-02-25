@@ -14,8 +14,8 @@ boutons.forEach(bouton => {
         // On capture l'element parent du bouton
         let parent = bouton.parentElement;
 
-        // On ajoute la classe 'active' au bouton
-        parent.classList.add('active');
+        // On ajoute la classe 'actif' au bouton
+        parent.classList.add('actif');
 
         // On change l'image du fond en fonction de la page
         if (url.endsWith("index.php") || url === "/") 
