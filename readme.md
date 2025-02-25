@@ -36,7 +36,7 @@ Mon projet et ce site démontrent mes compétences à travers les cinq champs de
 - ✅ Bluehost (hébergement web)
 
 ## 🌐 Accès au site
-- 🔗 Lien vers le site (Ajoute ici l'URL du site hébergé)
+- 🔗 Lien vers le site : https://chatpocalypsenow.com/
 
 ## 📩 Contact
 - 🐙 Github : https://github.com/IshtarFolo
