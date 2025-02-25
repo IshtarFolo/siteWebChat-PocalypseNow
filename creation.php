@@ -37,24 +37,47 @@ Template Name: creation
             Tenetur atque architecto alias autem expedita perspiciatis at quas. Consequatur sint voluptate amet?
             Voluptates tempore autem illo voluptas rerum suscipit quo asperiores aperiam consequuntur corporis ipsum
             alias, deserunt dignissimos culpa.</p>
-
-            <div class="row">
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/06.02.2025_10.33.59_REC.png" alt="" class="imgshadow w-100">
+		
+			<!-- Carousel Bootstrap	 -->
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/06.02.2025_10.33.59_REC.png" alt="Premiere slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/06.02.2025_10.34.27_REC.png" alt="Deuxieme slide">
+                  </div>
+                  <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatMaya_2.png" alt="Troisieme slide">
+                  </div>
+					           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatMaya_1.png" alt="Quatrieme slide">
+                  </div>
+					           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Maya3.png" alt="Cinquieme slide">
+                  </div>
+					           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatTestRender.jpg" alt="Sixieme slide">
+                  </div>
+								           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Groom.0002_1.0001.jpg" alt="Septieme slide">
+                  </div>
+								           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_AnimTest1.0006_1.0001.jpg" alt="Huitieme slide">
+                  </div>
+								           <div class="carousel-item">
+                    <img class="d-block w-100" src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Render1.jpg" alt="Neufieme slide">
+                  </div>
                 </div>
-				<div class="col-6 col-md-3 mb-3">
-                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatMaya_2.png" alt="" class="imgshadow w-100">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Maya3.png" alt="" class="imgshadow w-100">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chatTestRender.jpg" alt="" class="imgshadow w-100">
-                </div>
-                <div class="col-6 col-md-3 mb-3">
-                    <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Render1.jpg" alt="" class="imgshadow w-100">
-                </div>
-            </div>
+                <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Previous</span>
+                </a>
+                <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </div>
     </div>
 
     <div class="contenu bck-film mt-1">
