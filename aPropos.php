@@ -12,7 +12,7 @@ Template Name: aPropos
 
     <div class="texte1 mt-3 pr-3">
         <h1 class="h1-responsive">Chat-Pocalypse Now</h1>
-        <p class="crédit-responsive">Un Demo Reel par Xavier Arbour</p>
+        <p class="crédit-responsive">Un travail par Xavier Arbour</p>
     </div>
 
     <div class="wrapper-img-head">
