@@ -29,8 +29,6 @@ Template Name: aPropos
 
     <div class="contenu texte-intro">
         <h2 class="mb-4 mx-2">À propos de moi :</h2>
-        <!-- Style de l'image temporaire!!! -->
-        <img src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/Artboard-1.png" alt="" class="float-right imgshadow me-3 mb-3">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, tempora voluptate! Asperiores, a! Alias
             nemo ea voluptatibus delectus maxime quisquam aut explicabo! A repellat mollitia, debitis blanditiis illo
             eos perspiciatis!
@@ -44,12 +42,10 @@ Template Name: aPropos
             <br>
 
             <h2>Pourquoi le chat? :</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Architecto, tempora voluptate! Asperiores, a! Alias
-                nemo ea voluptatibus delectus maxime quisquam aut explicabo! A repellat mollitia, debitis blanditiis illo
-                eos perspiciatis!
-                Tenetur atque architecto alias autem expedita perspiciatis at quas. Consequatur sint voluptate amet?
-                Voluptates tempore autem illo voluptas rerum suscipit quo asperiores aperiam consequuntur corporis ipsum
-                alias, deserunt dignissimos culpa.</p>
+            <p> 
+À l’origine, je voulais réaliser un <strong>Demo Reel</strong> avec plusieurs modèles animés, mais j’ai rapidement compris que ce serait un défi trop ambitieux dans le temps imparti. J’ai donc décidé de me concentrer sur le <strong>personnage principal</strong> de mon court métrage : un chat.<br><br>
+
+Ce choix était naturel pour moi, car j’ai toujours eu des chats dans ma vie, et je voulais capturer leur **grâce et expressivité** en 3D. De plus, la <strong>modélisation organique</strong> représentait un véritable défi technique, parfait pour pousser mes compétences en sculpture, <strong>rigging</strong> et <strong>grooming</strong>.</p>
     </div>
     <!-- CONTENU -->
 
