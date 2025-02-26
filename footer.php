@@ -24,8 +24,6 @@
     <script src="<?php echo get_template_directory_uri(); ?>/sass/bootstrap-4.3.1/js/dist/util.js"></script>
     <script src="<?php echo get_template_directory_uri(); ?>/sass/bootstrap-4.3.1/js/dist/carousel.js"></script>
 
-    <script src="js/index.js"></script>
-
     <script src="<?php echo get_template_directory_uri(); ?>/js/index.js"></script>
     </body>
 

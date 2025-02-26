@@ -98,10 +98,9 @@ Template Name: creation
 <!-- Vidéo -->
 <div class="contenu bck-film mt-1">
   <div class="video p-3">
-    <iframe src="https://www.youtube.com/embed/6H8ZJNFKcec?si=E_DaEXMLn23P34Lq" title="YouTube video player"
-      frameborder="0"
+  <iframe src="https://chatpocalypsenow.com/wp-content/uploads/2025/02/chat_Turntable_1.mp4" 
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="true" allowtransparency="true"></iframe>
   </div>
 </div>
 <!-- CONTENU -->
