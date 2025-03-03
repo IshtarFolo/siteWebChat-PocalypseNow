@@ -3,7 +3,6 @@
 	
 <script type="text/javascript">
     var pageInfo = '<?php echo get_bloginfo("template_url") . "/" . is_page() ? get_the_title() : "Not a page"; ?>';
-    console.log('pageInfo = ' + pageInfo);
 </script>
 	
 <head>
